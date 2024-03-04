@@ -1,0 +1,19 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@3.4.2-solc-0.7
+  - Uniswap/solidity-lib@4.0.0-alpha
+
+compiler:
+  solc:
+    version: 0.7.6
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.2-solc-0.7/"
+      - "@uniswap/lib=Uniswap/solidity-lib@4.0.0-alpha/"
+
+project_structure:
+  scripts: brownie-scripts
+  tests: brownie-tests
+
+console:
+  show_colors: true
+  auto_suggest: true
+  completions: true

@@ -1,0 +1,18 @@
+dependencies:
+  - Uniswap/v2-core@1.0.1
+  - Uniswap/uniswap-lib@4.0.0-alpha
+
+compiler:
+  solc:
+    remappings:
+      - "openzeppelin=OpenZeppelin/openzeppelin-contracts@4.9.0"
+      - "@uniswap/v2-core=Uniswap/v2-core@1.0.1/"
+
+project_structure:
+  scripts: brownie-scripts
+  tests: brownie-tests
+
+console:
+  show_colors: true
+  auto_suggest: true
+  completions: true
